@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif
+}
+.black
+{
+    width: 100%;
+    height: 40px;
+    background-color: #1c1d1d;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.white{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.pink{
+    width: 100vw;
+    height: 40vh;
+    background-color: rgb(248, 220, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    flex-wrap: wrap;
+}
+.pic {
+    background: url(../img/com.jpg);
+    width: 100vw;
+    background-position: center;
+    height: 40vh;
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #f30909;
+    background: hwb(180 93% 5%) ;
+    padding: 10px;
+    border-radius: 20px;
+
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 30px;
+    text-align: center;
+} 
+.coloum {
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+}
+
+.plan{
+    width: 150px;
+    height: 300px;
+    background-color:rgb(170, 124, 63) ;
+    border: 1px solid black;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.plan2{
+    width: 100%;
+    background-color:rgb(233, 204, 166) ;
+    font-size: small;
+    
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    size: 10px;
+}
+.message{
+    height: 40px;
+}
+button{
+    background-color: #1c1d1d;
+    width: 150px;
+    height: 25px;
+    color: aliceblue;
+}
+.cont{
+    margin: 30px;
+    text-align: center;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
